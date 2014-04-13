@@ -19,6 +19,10 @@
 		F4264C3318FA407600CAB3BC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4264C1B18FA407600CAB3BC /* UIKit.framework */; };
 		F4264C3B18FA407600CAB3BC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F4264C3918FA407600CAB3BC /* InfoPlist.strings */; };
 		F4264C3D18FA407600CAB3BC /* QuietTimeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F4264C3C18FA407600CAB3BC /* QuietTimeTests.m */; };
+		F4264C4818FA41B200CAB3BC /* Background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F4264C4718FA41B200CAB3BC /* Background.jpg */; };
+		F4264C4B18FA430600CAB3BC /* AYLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4264C4A18FA430600CAB3BC /* AYLViewController.m */; };
+		F4264C4E18FA4D2000CAB3BC /* Beach.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F4264C4D18FA4D2000CAB3BC /* Beach.mp3 */; };
+		F4264C5018FA537800CAB3BC /* Beach.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4264C4F18FA537800CAB3BC /* Beach.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +52,11 @@
 		F4264C3818FA407600CAB3BC /* QuietTimeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QuietTimeTests-Info.plist"; sourceTree = "<group>"; };
 		F4264C3A18FA407600CAB3BC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F4264C3C18FA407600CAB3BC /* QuietTimeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuietTimeTests.m; sourceTree = "<group>"; };
+		F4264C4718FA41B200CAB3BC /* Background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Background.jpg; sourceTree = "<group>"; };
+		F4264C4918FA430600CAB3BC /* AYLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AYLViewController.h; sourceTree = "<group>"; };
+		F4264C4A18FA430600CAB3BC /* AYLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AYLViewController.m; sourceTree = "<group>"; };
+		F4264C4D18FA4D2000CAB3BC /* Beach.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Beach.mp3; sourceTree = "<group>"; };
+		F4264C4F18FA537800CAB3BC /* Beach.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Beach.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,10 +116,14 @@
 		F4264C1D18FA407600CAB3BC /* QuietTime */ = {
 			isa = PBXGroup;
 			children = (
+				F4264C4C18FA4C2500CAB3BC /* Audio */,
+				F4264C4618FA41A100CAB3BC /* Images */,
 				F4264C2618FA407600CAB3BC /* AYLAppDelegate.h */,
 				F4264C2718FA407600CAB3BC /* AYLAppDelegate.m */,
 				F4264C2918FA407600CAB3BC /* Images.xcassets */,
 				F4264C1E18FA407600CAB3BC /* Supporting Files */,
+				F4264C4918FA430600CAB3BC /* AYLViewController.h */,
+				F4264C4A18FA430600CAB3BC /* AYLViewController.m */,
 			);
 			path = QuietTime;
 			sourceTree = "<group>";
@@ -142,6 +155,23 @@
 				F4264C3918FA407600CAB3BC /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F4264C4618FA41A100CAB3BC /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				F4264C4718FA41B200CAB3BC /* Background.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		F4264C4C18FA4C2500CAB3BC /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				F4264C4F18FA537800CAB3BC /* Beach.wav */,
+				F4264C4D18FA4D2000CAB3BC /* Beach.mp3 */,
+			);
+			name = Audio;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,6 +252,9 @@
 			files = (
 				F4264C2218FA407600CAB3BC /* InfoPlist.strings in Resources */,
 				F4264C2A18FA407600CAB3BC /* Images.xcassets in Resources */,
+				F4264C4E18FA4D2000CAB3BC /* Beach.mp3 in Resources */,
+				F4264C4818FA41B200CAB3BC /* Background.jpg in Resources */,
+				F4264C5018FA537800CAB3BC /* Beach.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +275,7 @@
 			files = (
 				F4264C2418FA407600CAB3BC /* main.m in Sources */,
 				F4264C2818FA407600CAB3BC /* AYLAppDelegate.m in Sources */,
+				F4264C4B18FA430600CAB3BC /* AYLViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
