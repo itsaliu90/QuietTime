@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F4264C1818FA407500CAB3BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4264C1718FA407500CAB3BC /* Foundation.framework */; };
+		F4264C1A18FA407600CAB3BC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4264C1918FA407600CAB3BC /* CoreGraphics.framework */; };
+		F4264C1C18FA407600CAB3BC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4264C1B18FA407600CAB3BC /* UIKit.framework */; };
+		F4264C2218FA407600CAB3BC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F4264C2018FA407600CAB3BC /* InfoPlist.strings */; };
+		F4264C2418FA407600CAB3BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F4264C2318FA407600CAB3BC /* main.m */; };
+		F4264C2818FA407600CAB3BC /* AYLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F4264C2718FA407600CAB3BC /* AYLAppDelegate.m */; };
+		F4264C2A18FA407600CAB3BC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4264C2918FA407600CAB3BC /* Images.xcassets */; };
+		F4264C3118FA407600CAB3BC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4264C3018FA407600CAB3BC /* XCTest.framework */; };
+		F4264C3218FA407600CAB3BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4264C1718FA407500CAB3BC /* Foundation.framework */; };
+		F4264C3318FA407600CAB3BC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4264C1B18FA407600CAB3BC /* UIKit.framework */; };
+		F4264C3B18FA407600CAB3BC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F4264C3918FA407600CAB3BC /* InfoPlist.strings */; };
+		F4264C3D18FA407600CAB3BC /* QuietTimeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F4264C3C18FA407600CAB3BC /* QuietTimeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F4264C3418FA407600CAB3BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4264C0C18FA407500CAB3BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4264C1318FA407500CAB3BC;
+			remoteInfo = QuietTime;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F4264C1418FA407500CAB3BC /* QuietTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuietTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4264C1718FA407500CAB3BC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F4264C1918FA407600CAB3BC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F4264C1B18FA407600CAB3BC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F4264C1F18FA407600CAB3BC /* QuietTime-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QuietTime-Info.plist"; sourceTree = "<group>"; };
+		F4264C2118FA407600CAB3BC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F4264C2318FA407600CAB3BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F4264C2518FA407600CAB3BC /* QuietTime-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QuietTime-Prefix.pch"; sourceTree = "<group>"; };
+		F4264C2618FA407600CAB3BC /* AYLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AYLAppDelegate.h; sourceTree = "<group>"; };
+		F4264C2718FA407600CAB3BC /* AYLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AYLAppDelegate.m; sourceTree = "<group>"; };
+		F4264C2918FA407600CAB3BC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F4264C2F18FA407600CAB3BC /* QuietTimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuietTimeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4264C3018FA407600CAB3BC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F4264C3818FA407600CAB3BC /* QuietTimeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QuietTimeTests-Info.plist"; sourceTree = "<group>"; };
+		F4264C3A18FA407600CAB3BC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F4264C3C18FA407600CAB3BC /* QuietTimeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuietTimeTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4264C1118FA407500CAB3BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4264C1A18FA407600CAB3BC /* CoreGraphics.framework in Frameworks */,
+				F4264C1C18FA407600CAB3BC /* UIKit.framework in Frameworks */,
+				F4264C1818FA407500CAB3BC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4264C2C18FA407600CAB3BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4264C3118FA407600CAB3BC /* XCTest.framework in Frameworks */,
+				F4264C3318FA407600CAB3BC /* UIKit.framework in Frameworks */,
+				F4264C3218FA407600CAB3BC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F4264C0B18FA407500CAB3BC = {
+			isa = PBXGroup;
+			children = (
+				F4264C1D18FA407600CAB3BC /* QuietTime */,
+				F4264C3618FA407600CAB3BC /* QuietTimeTests */,
+				F4264C1618FA407500CAB3BC /* Frameworks */,
+				F4264C1518FA407500CAB3BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4264C1518FA407500CAB3BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4264C1418FA407500CAB3BC /* QuietTime.app */,
+				F4264C2F18FA407600CAB3BC /* QuietTimeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4264C1618FA407500CAB3BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F4264C1718FA407500CAB3BC /* Foundation.framework */,
+				F4264C1918FA407600CAB3BC /* CoreGraphics.framework */,
+				F4264C1B18FA407600CAB3BC /* UIKit.framework */,
+				F4264C3018FA407600CAB3BC /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F4264C1D18FA407600CAB3BC /* QuietTime */ = {
+			isa = PBXGroup;
+			children = (
+				F4264C2618FA407600CAB3BC /* AYLAppDelegate.h */,
+				F4264C2718FA407600CAB3BC /* AYLAppDelegate.m */,
+				F4264C2918FA407600CAB3BC /* Images.xcassets */,
+				F4264C1E18FA407600CAB3BC /* Supporting Files */,
+			);
+			path = QuietTime;
+			sourceTree = "<group>";
+		};
+		F4264C1E18FA407600CAB3BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4264C1F18FA407600CAB3BC /* QuietTime-Info.plist */,
+				F4264C2018FA407600CAB3BC /* InfoPlist.strings */,
+				F4264C2318FA407600CAB3BC /* main.m */,
+				F4264C2518FA407600CAB3BC /* QuietTime-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F4264C3618FA407600CAB3BC /* QuietTimeTests */ = {
+			isa = PBXGroup;
+			children = (
+				F4264C3C18FA407600CAB3BC /* QuietTimeTests.m */,
+				F4264C3718FA407600CAB3BC /* Supporting Files */,
+			);
+			path = QuietTimeTests;
+			sourceTree = "<group>";
+		};
+		F4264C3718FA407600CAB3BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4264C3818FA407600CAB3BC /* QuietTimeTests-Info.plist */,
+				F4264C3918FA407600CAB3BC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4264C1318FA407500CAB3BC /* QuietTime */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4264C4018FA407600CAB3BC /* Build configuration list for PBXNativeTarget "QuietTime" */;
+			buildPhases = (
+				F4264C1018FA407500CAB3BC /* Sources */,
+				F4264C1118FA407500CAB3BC /* Frameworks */,
+				F4264C1218FA407500CAB3BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuietTime;
+			productName = QuietTime;
+			productReference = F4264C1418FA407500CAB3BC /* QuietTime.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F4264C2E18FA407600CAB3BC /* QuietTimeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4264C4318FA407600CAB3BC /* Build configuration list for PBXNativeTarget "QuietTimeTests" */;
+			buildPhases = (
+				F4264C2B18FA407600CAB3BC /* Sources */,
+				F4264C2C18FA407600CAB3BC /* Frameworks */,
+				F4264C2D18FA407600CAB3BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4264C3518FA407600CAB3BC /* PBXTargetDependency */,
+			);
+			name = QuietTimeTests;
+			productName = QuietTimeTests;
+			productReference = F4264C2F18FA407600CAB3BC /* QuietTimeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4264C0C18FA407500CAB3BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AYL;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Alex Yuning Liu";
+				TargetAttributes = {
+					F4264C2E18FA407600CAB3BC = {
+						TestTargetID = F4264C1318FA407500CAB3BC;
+					};
+				};
+			};
+			buildConfigurationList = F4264C0F18FA407500CAB3BC /* Build configuration list for PBXProject "QuietTime" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F4264C0B18FA407500CAB3BC;
+			productRefGroup = F4264C1518FA407500CAB3BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4264C1318FA407500CAB3BC /* QuietTime */,
+				F4264C2E18FA407600CAB3BC /* QuietTimeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4264C1218FA407500CAB3BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4264C2218FA407600CAB3BC /* InfoPlist.strings in Resources */,
+				F4264C2A18FA407600CAB3BC /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4264C2D18FA407600CAB3BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4264C3B18FA407600CAB3BC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4264C1018FA407500CAB3BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4264C2418FA407600CAB3BC /* main.m in Sources */,
+				F4264C2818FA407600CAB3BC /* AYLAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4264C2B18FA407600CAB3BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4264C3D18FA407600CAB3BC /* QuietTimeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F4264C3518FA407600CAB3BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4264C1318FA407500CAB3BC /* QuietTime */;
+			targetProxy = F4264C3418FA407600CAB3BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F4264C2018FA407600CAB3BC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4264C2118FA407600CAB3BC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F4264C3918FA407600CAB3BC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4264C3A18FA407600CAB3BC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F4264C3E18FA407600CAB3BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F4264C3F18FA407600CAB3BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4264C4118FA407600CAB3BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QuietTime/QuietTime-Prefix.pch";
+				INFOPLIST_FILE = "QuietTime/QuietTime-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F4264C4218FA407600CAB3BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QuietTime/QuietTime-Prefix.pch";
+				INFOPLIST_FILE = "QuietTime/QuietTime-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F4264C4418FA407600CAB3BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/QuietTime.app/QuietTime";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QuietTime/QuietTime-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "QuietTimeTests/QuietTimeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F4264C4518FA407600CAB3BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/QuietTime.app/QuietTime";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QuietTime/QuietTime-Prefix.pch";
+				INFOPLIST_FILE = "QuietTimeTests/QuietTimeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4264C0F18FA407500CAB3BC /* Build configuration list for PBXProject "QuietTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4264C3E18FA407600CAB3BC /* Debug */,
+				F4264C3F18FA407600CAB3BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4264C4018FA407600CAB3BC /* Build configuration list for PBXNativeTarget "QuietTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4264C4118FA407600CAB3BC /* Debug */,
+				F4264C4218FA407600CAB3BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F4264C4318FA407600CAB3BC /* Build configuration list for PBXNativeTarget "QuietTimeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4264C4418FA407600CAB3BC /* Debug */,
+				F4264C4518FA407600CAB3BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4264C0C18FA407500CAB3BC /* Project object */;
+}
